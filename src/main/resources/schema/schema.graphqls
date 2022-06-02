@@ -1,0 +1,11 @@
+type Query {
+    math(numbers: [Int!]): [MathResponse]!
+}
+
+type MathResponse {
+    number: Int!
+    doubled: Int!
+    halved: Int!
+    incremented: Int!
+    decremented: Int!
+}
