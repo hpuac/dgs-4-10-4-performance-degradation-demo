@@ -25,4 +25,11 @@ In the following table I averaged the latencies from 3 requests.
 
 It's clearly visible that there is a huge latency increase with
 `graphql-dgs-spring-boot-micrometer` enabled when updating from
-v4.10.3 to v4.10.4.
+v4.10.3 to v4.10.4.  
+Since this shows best if the request contains many input arguments, the test
+[request.sh](./request.sh) file sends 3000 numbers as input arguments.
+
+## Appendix
+
+I raised this issue in the DGS repository:  
+https://github.com/Netflix/dgs-framework/issues/1089
