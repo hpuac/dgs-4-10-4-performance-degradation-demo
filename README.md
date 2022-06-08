@@ -1,5 +1,10 @@
 # DGS v4.10.4 performance degradation demo
 
+> UPDATE:  
+> This issue was resolved within https://github.com/Netflix/dgs-framework/pull/1092
+> and released in v5.0.2.  
+> Thx a lot to the whole team taking care of the issue so fast.
+
 The purpose of this repository is to demonstrate a performance degradation that
 was introduced in DGS v4.10.4.  
 This degradation only happens if the `graphql-dgs-spring-boot-micrometer`
